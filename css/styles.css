@@ -1,0 +1,29 @@
+body {
+    background-color: #000000
+}
+
+.applegreen {
+    color: #86e662
+}
+
+.salmonpink {
+    color: #f29ab1
+}
+
+#cis-special-parent {
+
+    color: #f29ab1
+}
+
+#cis-special-parent a {
+    color: #47d151;
+}
+
+.headingsandlinks {
+    font-family: cursive;
+    color: white;
+}
+
+a {
+    text-decoration: inherit;
+}

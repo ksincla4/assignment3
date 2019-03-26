@@ -1,5 +1,9 @@
 body {
-    background-color: #000000
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0 ,0 ,0 ,0), rgba(0, 0, 0, 0.9)), url(https://www.mieuxvivre-votreargent.fr/wp-content/uploads/2018/11/perles.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 .applegreen {
@@ -26,4 +30,26 @@ body {
 
 a {
     text-decoration: inherit;
+}
+
+h3 {
+/*    display:  flex;*/
+    align-content: center;
+    border: 2px solid #86e662;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #f29ab1;
+    background-image: radial-gradient(#86e662, #f29ab1);
+}
+
+.indexparagraph {
+    color: #ffffff;
+    border: 5px solid #86e662;
+    background-color: #f29ab1;
+    padding: 30px;
+    width: 500px
+}
+
+nav a {
+    font-family: cursive;
+    color: #f29ab1;
 }

@@ -1,6 +1,7 @@
 body {
     background-color: #000000;
-    background-image: linear-gradient(rgba(0 ,0 ,0 ,0), rgba(0, 0, 0, 0.9)), url(https://www.mieuxvivre-votreargent.fr/wp-content/uploads/2018/11/perles.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url("https://www.mieuxvivre-votreargent.fr/wp-content/uploads/2018/11/perles.jpg");
+    /* having trouble with using actual image */
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -32,14 +33,16 @@ a {
     text-decoration: inherit;
 }
 
+/*
 h3 {
-/*    display:  flex;*/
+    display:  flex;
     align-content: center;
     border: 2px solid #86e662;
     border-radius: 15px;
     box-shadow: 5px 5px 5px #f29ab1;
     background-image: radial-gradient(#86e662, #f29ab1);
 }
+*/
 
 .indexparagraph {
     color: #ffffff;
@@ -52,4 +55,86 @@ h3 {
 nav a {
     font-family: cursive;
     color: #f29ab1;
+    font-size: 21px
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100px
+}
+
+.thebar {
+    background-color: #000000;
+    border: 2px solid #86e662;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #f29ab1;
+    width: inherit;
+    margin-top: 10px
+}
+
+.thetop {
+    display: flex;
+    flex-direction: row;
+}
+
+.wordsatthetop {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 2px 2px #86e662;
+    font-family: cursive;
+    padding-left: 20px;
+    margin-top: 0px;
+    height: 10px;
+    font-size: 40px
+}
+
+.imgborder1{
+    border: 10px solid #f29ab1;
+    border-radius: 15px;
+    border-style: groove
+}
+
+.imgborder2{
+    border: 10px solid #86e662;
+    border-radius: 15px;
+    border-style: groove
+}
+
+.text {
+    color: #ffffff
+}
+
+.caption1 {
+    box-sizing: border-box;
+    width: 500px;
+    background-color: #f29ab1;
+    padding: 20px;
+    font-size: 20px
+}
+
+.caption2 {
+    box-sizing: border-box;
+    width: 500px;
+    background-color: #86e662;
+    padding: 20px;
+    border-style: dashed
+}
+
+.indexcontent {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column
 }

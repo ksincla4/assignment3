@@ -49,7 +49,8 @@ h3 {
     border: 5px solid #86e662;
     background-color: #f29ab1;
     padding: 30px;
-    width: 500px
+    width: 500px;
+    font-size: 25px
 }
 
 nav a {
@@ -112,7 +113,7 @@ nav a {
     box-sizing: border-box;
     width: 500px;
     background-color: #f29ab1;
-    padding: 20px;
+    padding: 10px;
     font-size: 20px
 }
 
@@ -121,7 +122,8 @@ nav a {
     width: 500px;
     background-color: #86e662;
     padding: 20px;
-    border-style: dashed
+    border-style: dashed;
+    font-size: 19px
 }
 
 .indexcontent {
@@ -131,10 +133,13 @@ nav a {
 
 .content1 {
     display: flex;
-    flex-direction: row
+    align-content: flex-end;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
-.content2 {
+.grid1 {
     display: flex;
-    flex-direction: column
+    flex-direction: row;
+    align-content: space-around;
 }

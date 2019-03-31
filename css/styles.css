@@ -41,17 +41,6 @@ a:hover {
     color: #86e662
 }
 
-/*
-h3 {
-    display:  flex;
-    align-content: center;
-    border: 2px solid #86e662;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px #f29ab1;
-    background-image: radial-gradient(#86e662, #f29ab1);
-}
-*/
-
 .indexparagraph {
     color: #ffffff;
     border: 5px solid #86e662;
@@ -147,6 +136,7 @@ nav a {
     flex-wrap: nowrap;
     padding-top: 20px
 }
+
 .grid1 {
     display: flex;
     flex-direction: row;
@@ -159,5 +149,48 @@ nav a {
 }
 
 .herstory {
-    text-shadow: 2px 2px 2px #f29ab1
+    text-shadow: 2px 2px 2px #86e662;
 }
+
+.historypage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.historycaption {
+    width: 600px;
+    margin: auto;
+}
+
+.historypictureborder {
+    border: 10px solid #f29ab1;
+    border-style: outset;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pinkborder {
+    box-sizing: border-box;
+    border: 10px solid #f29ab1;
+    border-radius: 15px;
+    border-style: double;
+}
+
+.greenborder {
+    box-sizing: border-box;
+    border: 10px solid #86e662;
+    border-radius: 15px;
+    border-style: groove;
+}
+
+/*
+main div img {
+    padding: 10px
+        just want the gallery page?
+}*/
